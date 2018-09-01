@@ -1,0 +1,287 @@
+
+input, textarea {
+  width: 80%;
+  margin: 8px auto;
+  padding: 12px 20px;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 150px;
+}
+
+img {
+  width : 60px;
+  height: 60px;
+  margin: 10px;
+}
+
+img.flag {
+  border-radius: 50%;
+}
+
+h2, h3, p {
+  color: #505050;
+}
+
+h2.typeTitle , h3.typeTitle, h2.pickTitle , h3.pickTitle {
+  color: white;
+  padding: 20px 15px 20px 20px;
+  margin : 0;
+}
+
+h3.typeTitle:hover {
+  background-color: #1976d2 ;
+}
+
+h3.pickTitle:hover {
+  background-color: #63a4ff;
+}
+
+.contactContainer {
+  width : 50%;
+  margin-left : auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 50px;
+  text-align: center;
+  box-shadow: 12px 10px 4px #CCC;
+  background-color: #DDD;
+  padding: 25px;
+}
+
+.socialContainer {
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  width: 20%;
+  margin: auto;
+}
+
+.skillsContainer {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width : 75%;
+  margin-left : auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 50px;
+  text-align: center;
+  box-shadow: 12px 10px 4px #CCC;
+  background-color: #DDD;
+}
+
+.projectContainer {
+  display: grid;
+  grid-template-columns: 15% 20% 65%;
+  width : 75%;
+  margin-left : auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 50px;
+  box-shadow: 12px 10px 4px #CCC;
+  background-color: #DDD;
+}
+
+.webContainer {
+  grid-column: 1;
+  padding: 50px;
+}
+
+.mobileContainer {
+  grid-column: 2;
+  border-left: 2px solid #AAA;
+  padding: 50px;
+}
+
+.otherContainer {
+  grid-column: 3;
+  border-left: 2px solid #AAA;
+  padding: 50px;
+}
+
+.languageContainer {
+  width: 60%;
+  margin: auto;
+}
+
+.welcomeContainer {
+  width : 50%;
+  margin-left : auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 50px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 12px 10px 4px #CCC;
+  background-color: #63a4ff;
+  padding: 25px;
+}
+
+
+.pageContainer {
+  background-color: #FAFAFA
+}
+
+.menuContainer {
+  background-color: #1976d2;
+  padding : 30px;
+}
+
+
+.projectTypeMenuContainer {
+  width: 100%;
+  background-color: #004ba0;
+}
+
+.projectPickMenuContainer {
+  width: 100%;
+  background-color: #1976d2 ;
+  padding-bottom: 50px
+}
+
+.menuText {
+  text-align : center;
+  margin : auto;
+  width: 50%;
+  color: white;
+}
+
+.menuItem {
+  padding: 30px;
+}
+
+.menuItem:hover {
+  color: #414141
+}
+
+.projectTitle {
+  color: #161616;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.projectDescription {
+  width: 90%;
+  margin: auto;
+}
+
+.languageRow {
+  width: 100%;
+  border-top: 2px solid #AAA;
+  grid-column: 1 / span 3;
+  grid-row: 2;
+}
+
+.languageGrid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  font-size: 12px;
+}
+
+.title {
+  color: #161616;
+  font-size: 35px;
+}
+
+.annoncement {
+  color: #B00020;
+  font-size: 29px;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.errorMessage {
+  color: red;
+  font-style: italic;
+  font-size: 10px;
+  text-align: center;
+}
+
+.madeWith {
+  color: black;
+  font-size: 9px;
+  font-style: italic;
+  text-align: center;
+}
+
+.logo {
+  width: 30%;
+  margin: auto;
+  padding: 20px
+}
+
+.logo:hover {
+  background-color: #AAA
+}
+
+
+.logoReactNative {
+  width: 20%;
+  margin: auto;
+  padding: 10px;
+  color: #FFF;
+  background-color: #000;
+}
+
+.logoAndroid {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  color: #A4C639;
+}
+
+.linkedinLogo {
+  color: #0077B5
+}
+
+.categoryIcon {
+  width: 30%;
+  margin: auto;
+  padding: 20px;
+  color: #004ba0;
+}
+
+.avatar {
+  width: 20%;
+  height: auto;
+}
+
+.screenshot {
+  width: 80%;
+  height: auto;
+  margin : 5% 10% 0 10%;
+}
+
+.screenshotMobile {
+  width: 30%;
+  height: auto;
+  margin: 1%;
+}
+
+.codeDisplay {
+  text-align: center;
+  width: 10%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 11px;
+  text-align: center;
+}
+
+.codeDisplay:hover {
+  background-color: #AAA
+}
+
+.sendMailButton {
+  color: #FFF;
+  background-color: #1976d2 ;
+  width: 25%;
+  margin: auto;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+}
