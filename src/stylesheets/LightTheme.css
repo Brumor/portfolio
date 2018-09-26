@@ -118,8 +118,9 @@ h3.pickTitle:hover {
 }
 
 
-.pageContainer {
-  background-color: #FAFAFA
+html, body {
+  background-color: #FAFAFA;
+  height: 100%;
 }
 
 .menuContainer {

@@ -28,7 +28,7 @@
           "images" : [
             "https://raw.githubusercontent.com/Brumor/TeachingFriends/master/screenshots(idkwheretoputthem)/localears1.png",
             "https://raw.githubusercontent.com/Brumor/TeachingFriends/master/screenshots(idkwheretoputthem)/localears3.png",
-            "https://raw.githubusercontent.com/Brumor/TeachingFriends/master/screenshots(idkwheretoputthem)/localears4.png"            
+            "https://raw.githubusercontent.com/Brumor/TeachingFriends/master/screenshots(idkwheretoputthem)/localears4.png"
           ],
           "technologies" : [
             "http://www.simpalm.com/wp-content/uploads/2017/08/nodejs-logo-1.png",
@@ -71,7 +71,15 @@
           "technologies" : [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/872px-Android_robot.svg.png",
             "https://firebase.google.com/_static/images/firebase/touchicon-180.png"
-          ]
+          ],
+          "images" : [
+            "https://github.com/Brumor/Kargo/blob/master/screenshots/Kargo5.jpg?raw=true",
+            "https://github.com/Brumor/Kargo/blob/master/screenshots/kargo4.jpg?raw=true",
+            "https://github.com/Brumor/Kargo/blob/master/screenshots/kargo3.jpg?raw=true",
+            "https://github.com/Brumor/Kargo/blob/master/screenshots/kargo2.jpg?raw=true",
+            "https://github.com/Brumor/Kargo/blob/master/screenshots/kargo1.jpg?raw=true"
+          ],
+          "link" : "https://github.com/Brumor/Kargo"
       },
       {
           "title" :"LifeGoals",

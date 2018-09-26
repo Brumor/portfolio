@@ -38,7 +38,7 @@ export default class ShowItems extends React.Component {
   render() {
     return (
       <div className="mainContainer">
-        <div className="progressBarContainer">
+        <div>
           <Menu changePage={this.changePage}/>
           <Pages current={this.state.page} info={info}/>
         </div>

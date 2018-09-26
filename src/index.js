@@ -16,9 +16,5 @@ library.add(fab, faMobile, faLaptop, faCode)
 //const store = createStore(rootReducer);
 
 ReactDOM.render((
-  <Provider
-    //store={store}
-    style={{height: "100%",}}>
-    <ShowItems/>
-  </Provider>
+    <ShowItems className="mainContainer"/>
   ), document.getElementById('root'));
