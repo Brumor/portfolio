@@ -1,19 +1,24 @@
 import React from 'react';
 
 export default class WelcomeScreen extends React.Component {
-
-  componentDidMount() {}
-
-  componentWillUnmount() {}
-
   render() {
     const info = this.props.info;
     return (
-      <div className="projectTypeMenuContainer">
-        <h2 className="typeTitle" >Type</h2>
-        <h3 className="typeTitle"  onClick={() => this.props.changeType(0)}>{info.web.title}</h3>
-        <h3 className="typeTitle" onClick={() => this.props.changeType(1)}>{info.mobile.title}</h3>
-        <h3 className="typeTitle" onClick={() => this.props.changeType(2)}>{info.others.title}</h3>
+      <div className="project-type-menu-container">
+        <p className="type-title-container" >
+          <a
+            className="type-title"
+            onClick={() => this.props.changeType('web')}>{info.web.title}
+          </a>
+          <a
+            className="type-title"
+            onClick={() => this.props.changeType('mobile')}>{info.mobile.title}
+          </a>
+          <a
+            className="type-title"
+            onClick={() => this.props.changeType('others')}>{info.others.title}
+          </a>
+        </p>
       </div>
     );
   }

@@ -1,81 +1,78 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
-//Function to get the size of an object
+// Function to get the size of an object
 Object.size = function(obj) {
-  var size = 0, key;
+  let size = 0;
+  let key;
   for (key in obj) {
-      if (obj.hasOwnProperty(key)) size++;
+    if (obj.hasOwnProperty(key)) size++;
   }
   return size;
 };
 
 
 export default class WelcomeScreen extends React.Component {
-
-  componentDidMount() {}
-
-  componentWillUnmount() {}
-
+  constructor(props) {
+    super(props);
+    this.state = {
+      showPanel: false,
+    };
+  }
   render() {
-    const info = this.props.info;
-    const currentProject = this.props.currentProject;
-    const currentType = this.props.currentType;
-    let project;
-
-    //Checks if the project index is not superior to the number of projects
-    const projectsNumber = Object.size(info[Object.keys(info)[currentType]].projects);
-    if ( projectsNumber < currentProject + 1) {
-
-      project = info[Object.keys(info)[currentType]].projects[projectsNumber - 1];
-
-    } else {
-
-      project = info[Object.keys(info)[currentType]].projects[currentProject];
-
-    }
-
-    let title = project.title;
-    let description = project.description;
+    const project = this.props.project;
+    const description = project.description;
     let images = project.images;
-    let technologies = project.technologies;
-    let link = project.link ;
-
-    if (images != null) {
-      if (currentType === 1) {
-        images = images.map((value) => <img src={value} className="screenshotMobile" alt="screenshot"/>)
-      } else {
-          images = images.map((value) => <img src={value} className="screenshot" alt="screenshot"/>)
-      }
-    } else {
-      images = <p className="errorMessage" >No screenshot avalaible</p>
-    }
-
-    if (technologies != null) {
-      technologies = technologies.map((value) => <img src={value} className="pickTitle" alt="technology"/>);
-    }
-
-    if (link == null) {
-      link = "no code avalaible for this project"
-    } else {
-      link = <FontAwesomeIcon icon={['fab', 'github-alt']} size="lg"/>
-    }
-
-
+    const technologies = project.technologies;
+    const link = project.link;
+    const current = this.props.current;
 
     return (
-      <div className="projectPanelContainer">
-        <p className="projectTitle">{title}</p>
-        <p className="projectDescription">{description}</p>
-        {images}
-        <div className="madeWith">
-          <p>Made with</p>
-          {technologies}
-        </div>
-        <div className="codeDisplay" onClick={() => { window.open(project.link)}}>
-          <p>See code here</p>
-          {link}
-        </div>
+      <div>
+        <h3
+          className="pick-title"
+          onClick={() => this.setState({showPanel: !this.state.showPanel})}>
+          {project.title}
+        </h3>
+        {this.state.showPanel ? (
+          <div className="project-panel">
+            <p className="project-description">{description}</p>
+
+            {images != null ? images.map((value) => {
+              return <img
+                src={value}
+                className={
+                  current === 'mobile' ? 'screenshot-mobile': 'screenshot'
+                }
+                alt="screenshot"/>;
+            }) : images = (
+              <p className="error-text" >No screenshot avalaible</p>
+            )}
+
+            <div className="made-with">
+              <p>Made with</p>
+              {
+                technologies.map((item) => {
+                  return <img
+                    src={item}
+                    className="pickTitle"
+                    alt="technology"/>;
+                })
+              }
+            </div>
+
+            { link !== null ? (
+            <div
+              className="code-display"
+              onClick={() => window.open(project.link)}>
+              <p>See code here</p>
+              <FontAwesomeIcon icon={['fab', 'github-alt']} size="lg"/>
+            </div>
+          ) : 'no code avalaible for this project'
+            }
+
+          </div>
+        ) : null}
       </div>
     );
   }

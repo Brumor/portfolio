@@ -15,14 +15,6 @@
           "link" : "https://github.com/Brumor/YearInProgress"
       },
       {
-          "title" :"This !",
-          "description" : "The portfolio you are looking at right not was entirely made by me using ReactJS !",
-          "technologies" : [
-            "https://www.acseo.fr/wp-content/uploads/2016/01/react-logo.png"
-          ],
-          "link" : "https://github.com/Brumor/Portfolio"
-      },
-      {
           "title" :"Localears",
           "description" : "A startup project I had, a music streaming plateform based on geolocation to discover knew musicians in your region ! This is the website that goes with the app.",
           "images" : [
@@ -93,24 +85,6 @@
             "https://firebase.google.com/_static/images/firebase/touchicon-180.png"
           ],
           "link" : "https://github.com/Brumor/lifegoals"
-      },
-      {
-          "title" :"Memo",
-          "description" : "Basic to-do list Android app implementing SQLite database",
-          "technologies" : [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/872px-Android_robot.svg.png",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/2000px-SQLite370.svg.png"
-          ],
-          "link" : "https://github.com/Brumor/memo"
-      },
-      {
-          "title" :"Chatlenge",
-          "description" : "A project I made to learn how to use Firebase, it is a vary simple Chat App",
-          "technologies" : [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/872px-Android_robot.svg.png",
-            "https://firebase.google.com/_static/images/firebase/touchicon-180.png"
-          ],
-          "link" : "https://github.com/Brumor/Chatlenge"
       }
     ]
   },
