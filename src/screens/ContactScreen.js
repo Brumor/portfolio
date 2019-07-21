@@ -11,16 +11,20 @@ export default class ContactScreen extends React.Component {
         <div >
           <h2>Find me on:</h2>
           <div className="social-container">
-            <FontAwesomeIcon
-              icon={['fab', 'linkedin']}
-              size="3x"
-              className="logo linkedin-logo"
-              onClick={() => window.open(linkedinURL)}/>
-            <FontAwesomeIcon
-              icon={['fab', 'github-alt']}
-              size="3x"
-              className="logo"
-              onClick={() => window.open(githubURL)}/>
+            <div
+              class="logo-container"
+              onClick={() => window.open(linkedinURL)}>
+              <FontAwesomeIcon
+                icon={['fab', 'linkedin']}
+                size="3x"
+                className="logo linkedin-logo"/>
+            </div>
+            <div class="logo-container" onClick={() => window.open(githubURL)}>
+              <FontAwesomeIcon
+                icon={['fab', 'github-alt']}
+                size="3x"
+                className="logo github-logo"/>
+            </div>
           </div>
 
         </div>
