@@ -7,11 +7,11 @@ import ContactScreen from '../screens/ContactScreen';
 export default class Pages extends React.Component {
   render() {
     return (
-      <div className="pageContainer">
-        <WelcomeScreen/>
-        <SkillsScreen/>
-        <ProjectsScreen/>
-        <ContactScreen/>
+      <div className='pageContainer'>
+        <WelcomeScreen />
+        <SkillsScreen />
+        <ProjectsScreen />
+        <ContactScreen />
       </div>
     );
   }

@@ -1,112 +1,121 @@
 {
-  "web" : {
-    "title" : "Web",
-    "projects" : [
+  "web": {
+    "title": "Web",
+    "projects": [
       {
-          "title" :"Year In Progress",
-          "description" : "Website made in React js with Redux showing the percentage of progress in the year, month, day, hour, minute and second as well as a To-Do List (made by someone with an obsession with time and achieving goals) ",
-          "images" : [
-            "https://raw.githubusercontent.com/Brumor/YearInProgress/master/screenshots/screen1.png"
-          ],
-          "technologies" : [
-            "https://www.acseo.fr/wp-content/uploads/2016/01/react-logo.png",
-            "http://www.stickpng.com/assets/images/5848309bcef1014c0b5e4a9a.png"
-          ],
-          "link" : "https://github.com/Brumor/YearInProgress"
+        "title": "Rocker",
+        "description": "Redesign and build features of the front page of one of Sweden's top neobanks!",
+        "technologies": ["Gatsby", "React", "Websockets", "CSS"],
+        "link": "https://rocker.com/"
       },
       {
-          "title" :"Localears",
-          "description" : "A startup project I had, a music streaming plateform based on geolocation to discover knew musicians in your region ! This is the website that goes with the app.",
-          "images" : [
-            "https://raw.githubusercontent.com/Brumor/TeachingFriends/master/screenshots(idkwheretoputthem)/localears1.png",
-            "https://raw.githubusercontent.com/Brumor/TeachingFriends/master/screenshots(idkwheretoputthem)/localears3.png",
-            "https://raw.githubusercontent.com/Brumor/TeachingFriends/master/screenshots(idkwheretoputthem)/localears4.png"
-          ],
-          "technologies" : [
-            "http://www.simpalm.com/wp-content/uploads/2017/08/nodejs-logo-1.png",
-            "https://firebase.google.com/_static/images/firebase/touchicon-180.png"
-          ]
+        "title": "Bynk",
+        "description": "Redesign of the front page of one of Sweden's top loan companies!",
+        "technologies": ["Gatsby", "React", "Websockets", "CSS"],
+        "link": "https://bynk.se/"
       },
       {
-          "title" :"Campus Reference",
-          "description" : "A project I had with a friend, this is a website to make collaborative courses online in the same way as Wikipedia but for students. Built with Flaks in Python",
-          "images" : [
-            "https://raw.githubusercontent.com/Brumor/TeachingFriends/master/screenshots(idkwheretoputthem)/CampusReference1.jpg"
-          ],
-          "technologies" : [
-            "https://cdn.worldvectorlogo.com/logos/flask.svg",
-            "https://firebase.google.com/_static/images/firebase/touchicon-180.png"
-          ],
-          "link" : "https://github.com/Brumor/Campus-Reference"
+        "title": "Year In Progress",
+        "description": "Website made in React js with Redux showing the percentage of progress in the year, month, day, hour, minute and second as well as a To-Do List (made by someone with an obsession with time and achieving goals) ",
+        "images": [
+          "https://raw.githubusercontent.com/Brumor/YearInProgress/master/screenshots/screen1.png"
+        ],
+        "technologies": ["React", "Redux"],
+        "link": "https://github.com/Brumor/YearInProgress"
+      },
+      {
+        "title": "Localears",
+        "description": "A startup project I had, a music streaming plateform based on geolocation to discover knew musicians in your region ! This is the website that goes with the app.",
+        "images": [
+          "https://raw.githubusercontent.com/Brumor/TeachingFriends/master/screenshots(idkwheretoputthem)/localears1.png",
+          "https://raw.githubusercontent.com/Brumor/TeachingFriends/master/screenshots(idkwheretoputthem)/localears3.png",
+          "https://raw.githubusercontent.com/Brumor/TeachingFriends/master/screenshots(idkwheretoputthem)/localears4.png"
+        ],
+        "technologies": ["NodeJS", "ExpressJS", "Pug Template"]
+      },
+      {
+        "title": "Campus Reference",
+        "description": "A project I had with a friend, this is a website to make collaborative courses online in the same way as Wikipedia but for students. Built in Python with Flask.",
+        "images": [
+          "https://raw.githubusercontent.com/Brumor/TeachingFriends/master/screenshots(idkwheretoputthem)/CampusReference1.jpg"
+        ],
+        "technologies": ["Flask", "Python", "Firebase"],
+        "link": "https://github.com/Brumor/Campus-Reference"
       }
     ]
   },
-  "mobile" : {
-    "title" : "Mobile",
-    "projects" : [
+  "mobile": {
+    "title": "Mobile",
+    "projects": [
       {
-          "title" :"Localears",
-          "description" : "A startup project I had, a music streaming plateform based on geolocation to discover knew musicians in your region ! This is the main app.",
-          "images" : [
-            "https://raw.githubusercontent.com/Brumor/TeachingFriends/master/screenshots(idkwheretoputthem)/localapp2.PNG",
-            "https://raw.githubusercontent.com/Brumor/TeachingFriends/master/screenshots(idkwheretoputthem)/Capture.PNG",
-            "https://raw.githubusercontent.com/Brumor/TeachingFriends/master/screenshots(idkwheretoputthem)/localapp.PNG"
-          ],
-          "technologies" : [
-            "https://pbs.twimg.com/profile_images/763061332702736385/KoK6gHzp_400x400.jpg",
-            "https://firebase.google.com/_static/images/firebase/touchicon-180.png"
-          ]
+        "title": "Rocker",
+        "description": "Gave life to Rocker, and a few features on it, and helped make it the #1 most downloaded app in Sweden in February.",
+        "technologies": ["React Native", "Websockets"],
+        "link": "https://apps.apple.com/se/app/rocker-bynk/id1229786550"
       },
       {
-          "title" :"Kargo",
-          "description" : "An app I made for a startup I was working with. It is an app for deliveries made by non professionals.",
-          "technologies" : [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/872px-Android_robot.svg.png",
-            "https://firebase.google.com/_static/images/firebase/touchicon-180.png"
-          ],
-          "images" : [
-            "https://github.com/Brumor/Kargo/blob/master/screenshots/Kargo5.jpg?raw=true",
-            "https://github.com/Brumor/Kargo/blob/master/screenshots/kargo4.jpg?raw=true",
-            "https://github.com/Brumor/Kargo/blob/master/screenshots/kargo3.jpg?raw=true",
-            "https://github.com/Brumor/Kargo/blob/master/screenshots/kargo2.jpg?raw=true",
-            "https://github.com/Brumor/Kargo/blob/master/screenshots/kargo1.jpg?raw=true"
-          ],
-          "link" : "https://github.com/Brumor/Kargo"
+        "title": "Localears",
+        "description": "A startup project I had, a music streaming plateform based on geolocation to discover knew musicians in your region ! This is the main app.",
+        "images": [
+          "https://raw.githubusercontent.com/Brumor/TeachingFriends/master/screenshots(idkwheretoputthem)/localapp2.PNG",
+          "https://raw.githubusercontent.com/Brumor/TeachingFriends/master/screenshots(idkwheretoputthem)/Capture.PNG",
+          "https://raw.githubusercontent.com/Brumor/TeachingFriends/master/screenshots(idkwheretoputthem)/localapp.PNG"
+        ],
+        "technologies": [
+          "https://pbs.twimg.com/profile_images/763061332702736385/KoK6gHzp_400x400.jpg",
+          "https://firebase.google.com/_static/images/firebase/touchicon-180.png"
+        ]
       },
       {
-          "title" :"LifeGoals",
-          "description" : "A project I made to practice my Android development Skills. LifeGoals is a social network to keep track of your goals in life, and share how successfully you move towards them !",
-          "images" : [
-            "https://raw.githubusercontent.com/Brumor/lifegoals/master/screenshots/Screenshot1.PNG",
-            "https://raw.githubusercontent.com/Brumor/lifegoals/master/screenshots/Screenshot2.PNG"
-          ],
-          "technologies" : [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/872px-Android_robot.svg.png",
-            "https://firebase.google.com/_static/images/firebase/touchicon-180.png"
-          ],
-          "link" : "https://github.com/Brumor/lifegoals"
+        "title": "Kargo",
+        "description": "An app I made for a startup I was working with. It is an app for deliveries made by non professionals.",
+        "technologies": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/872px-Android_robot.svg.png",
+          "https://firebase.google.com/_static/images/firebase/touchicon-180.png"
+        ],
+        "images": [
+          "https://github.com/Brumor/Kargo/blob/master/screenshots/Kargo5.jpg?raw=true",
+          "https://github.com/Brumor/Kargo/blob/master/screenshots/kargo4.jpg?raw=true",
+          "https://github.com/Brumor/Kargo/blob/master/screenshots/kargo3.jpg?raw=true",
+          "https://github.com/Brumor/Kargo/blob/master/screenshots/kargo2.jpg?raw=true",
+          "https://github.com/Brumor/Kargo/blob/master/screenshots/kargo1.jpg?raw=true"
+        ],
+        "link": "https://github.com/Brumor/Kargo"
+      },
+      {
+        "title": "LifeGoals",
+        "description": "A project I made to practice my Android development Skills. LifeGoals is a social network to keep track of your goals in life, and share how successfully you move towards them !",
+        "images": [
+          "https://raw.githubusercontent.com/Brumor/lifegoals/master/screenshots/Screenshot1.PNG",
+          "https://raw.githubusercontent.com/Brumor/lifegoals/master/screenshots/Screenshot2.PNG"
+        ],
+        "technologies": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/872px-Android_robot.svg.png",
+          "https://firebase.google.com/_static/images/firebase/touchicon-180.png"
+        ],
+        "link": "https://github.com/Brumor/lifegoals"
       }
     ]
   },
-  "others" : {
-    "title" : "Others",
-    "projects" : [
+  "others": {
+    "title": "Others",
+    "projects": [
       {
-          "title" :"Instabot",
-          "description" : "A bot for Instagram I made for a friend starting her own marketing company. It is made with Python and uses the Selenium test framework",
-          "technologies" : [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png",
-            "https://seeklogo.com/images/S/selenium-logo-DB9103D7CF-seeklogo.com.png"
-          ],
-          "link" : "https://github.com/Brumor/InstaBot"
+        "title": "Instabot",
+        "description": "A bot for Instagram I made for a friend starting her own marketing company. It is made with Python and uses the Selenium test framework",
+        "technologies": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png",
+          "https://seeklogo.com/images/S/selenium-logo-DB9103D7CF-seeklogo.com.png"
+        ],
+        "link": "https://github.com/Brumor/InstaBot"
       },
       {
-          "title" :"BrumWord",
-          "description" : "A project during my 'one month of code' challenge, it is a very small and simple text editor in Python",
-          "technologies" : [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png"
-          ],
-          "link" : "https://github.com/Brumor/BrumWord"
+        "title": "BrumWord",
+        "description": "A project during my 'one month of code' challenge, it is a very small and simple text editor in Python",
+        "technologies": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png"
+        ],
+        "link": "https://github.com/Brumor/BrumWord"
       }
     ]
   }
