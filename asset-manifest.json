@@ -1,7 +1,30 @@
 {
-  "main.css": "static/css/main.6b8f1a41.css",
-  "main.css.map": "static/css/main.6b8f1a41.css.map",
-  "main.js": "static/js/main.938ea1b4.js",
-  "main.js.map": "static/js/main.938ea1b4.js.map",
-  "static/media/myAvatar.png": "static/media/myAvatar.d2ffd85e.png"
+  "files": {
+    "main.css": "/portfolio/static/css/main.29dd0c4a.chunk.css",
+    "main.js": "/portfolio/static/js/main.830dd8b1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.830dd8b1.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.fb1b3dac.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.fb1b3dac.js.map",
+    "static/js/2.ec967a86.chunk.js": "/portfolio/static/js/2.ec967a86.chunk.js",
+    "static/js/2.ec967a86.chunk.js.map": "/portfolio/static/js/2.ec967a86.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.cc214750cf6a94cfd2a9cbfbd0e370e1.js": "/portfolio/precache-manifest.cc214750cf6a94cfd2a9cbfbd0e370e1.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.29dd0c4a.chunk.css.map": "/portfolio/static/css/main.29dd0c4a.chunk.css.map",
+    "static/js/2.ec967a86.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ec967a86.chunk.js.LICENSE.txt",
+    "static/media/Paul_BRICOUT_resume.pdf": "/portfolio/static/media/Paul_BRICOUT_resume.846ec0fa.pdf",
+    "static/media/france_640.png": "/portfolio/static/media/france_640.43b3f7cf.png",
+    "static/media/germany_640.png": "/portfolio/static/media/germany_640.2c6fe6d8.png",
+    "static/media/italy_640.png": "/portfolio/static/media/italy_640.29176c5c.png",
+    "static/media/myAvatar.png": "/portfolio/static/media/myAvatar.d2ffd85e.png",
+    "static/media/russia_640.png": "/portfolio/static/media/russia_640.cd382d68.png",
+    "static/media/sweden_640.png": "/portfolio/static/media/sweden_640.d35eca17.png",
+    "static/media/united_kingdom_640.png": "/portfolio/static/media/united_kingdom_640.7a9d4c10.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb1b3dac.js",
+    "static/js/2.ec967a86.chunk.js",
+    "static/css/main.29dd0c4a.chunk.css",
+    "static/js/main.830dd8b1.chunk.js"
+  ]
 }
