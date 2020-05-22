@@ -37,7 +37,7 @@ export default class WelcomeScreen extends React.Component {
         }}
       >
         <h2 style={{ fontSize: '1.75rem' }}>Projects</h2>
-        <p style={{ marginTop: 20, fontSize: '1.4rem' }}>
+        <p style={{ marginTop: 20, fontSize: '1.4rem', textAlign: 'center' }}>
           This part is still under construction,{' '}
           <a
             style={{ color: '#e91e63', marginTop: 20 }}
